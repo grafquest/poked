@@ -13,6 +13,7 @@
 		052D27ED1C5A613B00312FDD /* pokedex.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 052D27EB1C5A613B00312FDD /* pokedex.xcdatamodeld */; };
 		052D27EF1C5A613B00312FDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 052D27EE1C5A613B00312FDD /* Assets.xcassets */; };
 		052D27F21C5A613B00312FDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 052D27F01C5A613B00312FDD /* LaunchScreen.storyboard */; };
+		052D27FA1C5A65B800312FDD /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 052D27F91C5A65B800312FDD /* pokemon.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		052D27EE1C5A613B00312FDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		052D27F11C5A613B00312FDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		052D27F31C5A613B00312FDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		052D27F91C5A65B800312FDD /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = pokemon.csv; path = ../pokemon.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				052D27E41C5A613B00312FDD /* AppDelegate.swift */,
 				052D27E61C5A613B00312FDD /* ViewController.swift */,
+				052D27F91C5A65B800312FDD /* pokemon.csv */,
 				052D27E81C5A613B00312FDD /* Main.storyboard */,
 				052D27EE1C5A613B00312FDD /* Assets.xcassets */,
 				052D27F01C5A613B00312FDD /* LaunchScreen.storyboard */,
@@ -127,6 +130,7 @@
 			files = (
 				052D27F21C5A613B00312FDD /* LaunchScreen.storyboard in Resources */,
 				052D27EF1C5A613B00312FDD /* Assets.xcassets in Resources */,
+				052D27FA1C5A65B800312FDD /* pokemon.csv in Resources */,
 				052D27EA1C5A613B00312FDD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
